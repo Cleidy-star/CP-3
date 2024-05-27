@@ -9,7 +9,8 @@ if(taskTexte !==''){
     const taskItem = document.createElement('li');
     taskItem.className = 'task-item';
 
-    const
+    const taskContent =document.createElement('span');
+    taskContent.textContent = taskText;
 }
 
 }
