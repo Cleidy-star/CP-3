@@ -18,6 +18,10 @@ if(taskTexte !==''){
     deleteButton.addEventListener('click', function()){
         taskList.removeChild(taskItem);
     });
+
+    taskItem.appendChild(taskContent);
+    taskContent.appendChild(deleteButton);
+    
 }
 
 }
