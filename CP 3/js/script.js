@@ -21,7 +21,10 @@ if(taskTexte !==''){
 
     taskItem.appendChild(taskContent);
     taskContent.appendChild(deleteButton);
+
     taskList.appendChild(taskItem);
+    taskInput.value = '';
+    taskInput.focus();
 
 }
 
