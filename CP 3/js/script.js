@@ -15,6 +15,9 @@ if(taskTexte !==''){
     deleteButton.className ='delete-button';
     deleteButton.innerHTML = '🗑️'
     deleteButton.title = 'Excluir tarefa';
+    deleteButton.addEventListener('click', function()){
+        taskList.removeChild(taskItem);
+    });
 }
 
 }
