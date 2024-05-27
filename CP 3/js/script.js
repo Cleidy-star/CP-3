@@ -11,6 +11,10 @@ if(taskTexte !==''){
 
     const taskContent =document.createElement('span');
     taskContent.textContent = taskText;
+    const deleteButton = document.createElement('button');
+    deleteButton.className ='delete-button';
+    deleteButton.innerHTML = '🗑️'
+    deleteButton.title = 'Excluir tarefa';
 }
 
 }
